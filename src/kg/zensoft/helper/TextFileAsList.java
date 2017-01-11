@@ -32,7 +32,7 @@ public class TextFileAsList implements InputAsList {
 			scannerOfPattern = new Scanner(new File("pattern.txt"));
 			scannerOfInput = new Scanner(new File("input.txt"));
 		} catch (FileNotFoundException e) {
-			// TODO provide files
+			e.printStackTrace();
 		}
 	}
 
